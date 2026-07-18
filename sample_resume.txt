@@ -1,0 +1,16 @@
+Name: Rahul Sharma
+
+Email: rahul@gmail.com
+
+Phone: 9876543210
+
+Education:
+B.E. Electrical Engineering
+
+Skills:
+Python
+Pandas
+NumPy
+Machine Learning
+SQL
+Power BI
