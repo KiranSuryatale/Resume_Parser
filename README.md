@@ -12,6 +12,7 @@ A beginner-friendly, modular NLP application designed to extract key entities fr
 - **Modular Design:** Cleanly separated logic for extraction, parsing, and execution.
 
 - **Interactive UI:** A simple CLI (Command Line Interface) to input and process files.
+## 📂 Project Structure
 ```text
 Resume_Parser/
 │
