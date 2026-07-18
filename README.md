@@ -1,18 +1,17 @@
 # Resume Parser
 
-A beginner-friendly, modular Deep Learning application designed to recognize handwritten digits using the famous MNIST dataset. This project provides a hands-on introduction to neural networks using TensorFlow/Keras.
+A beginner-friendly, modular NLP application designed to extract key entities from resume text files. It uses Regular Expressions (Regex) and basic string processing to identify and parse contact information, skills, and educational qualifications automatically.
 
 ## 🚀 Features
-- **Automated Dataset Handling:** Seamlessly downloads and prepares the MNIST dataset for training.
+- **Automated Extraction:** Effortlessly retrieves Name, Email, and Phone number using Regex patterns.
 
-- **Neural Network Architecture:** Implements a multi-layer perceptron with Flatten, Dense, and Softmax output layers.
+- **Skill Matching:** Searches for predefined technical skills within the resume text.
 
-- **Model Persistence:** Trains the model and saves it as a .keras file for future use.
+- **Education Parsing:** Identifies educational qualifications based on a keyword list.
 
-- **Interactive Prediction:** A terminal-based menu to test the model on specific images from the test set.
+- **Modular Design:** Cleanly separated logic for extraction, parsing, and execution.
 
-- **Image Visualization:** Uses Matplotlib to display the actual digits and verify model predictions.
-## 📂 Project Structure
+- **Interactive UI:** A simple CLI (Command Line Interface) to input and process files.
 ```text
 Resume_Parser/
 │
